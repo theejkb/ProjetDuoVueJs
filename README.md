@@ -1,2 +1,2 @@
 # ProjetDuoVueJs
-Projet d'évalutation VueJS
+Projet d'évalutation VueJS en Duo avec Maha GAALOUL
