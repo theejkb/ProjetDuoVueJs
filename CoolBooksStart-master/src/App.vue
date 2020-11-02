@@ -38,15 +38,19 @@
           </div>
         </div>
       </header>
-      <!-- END HEADER DESKTOP-->
-
-      <!-- PAGE CONTENT-->
-      <div class="page-content--bgf7 container-fluid p-5">
-        <router-view></router-view>
-
-        <!-- Content -->
+      <router-view></router-view>
+      <div class="page-content--bgf7">
+        <section class="welcome p-t-10">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="title-4">le titre</h1>
+                <hr class="line-seprate" />
+              </div>
+            </div>
+          </div>
+        </section>
         <section class="container"></section>
-        <!-- END STATISTIC CHART-->
       </div>
     </div>
   </div>
