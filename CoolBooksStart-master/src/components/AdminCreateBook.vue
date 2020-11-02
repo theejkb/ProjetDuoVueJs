@@ -50,10 +50,9 @@
             class="form-control"
             id="exampleFormControlSelect1"
           >
-            <option value="1">Science Fiction</option>
-            <option value="2">Historique</option>
-            <option value="3">Biographies</option>
-            <option value="4">Fantasy</option>
+            <option v-for="bookGenre in genres" :key="bookGenre.id">
+              {{ bookGenre.label }}
+            </option>
           </select>
         </div>
         <div class="form-group">
@@ -78,7 +77,9 @@
             >Disponible en eBooks</label
           >
         </div>
-        <button type="submit" class="btn btn-primary">Ajouter</button>
+        <button type="submit" class="btn btn-primary" @click="updateBook()">
+          {{ this.onEditMode ? "Update" : "Create" }}
+        </button>
       </form>
     </div>
   </div>
@@ -88,6 +89,7 @@
 import axios from "axios";
 
 const API_ENDPOINT = "http://localhost:3000/books/";
+const API_ENDPOINT_GENRE = "http://localhost:3000/genres/";
 
 export default {
   name: "AdminCreateBook",
@@ -96,8 +98,43 @@ export default {
   },
   data: () => ({
     newBook: {},
+    genres: {},
+    onEditMode: false,
   }),
   methods: {
+    async fetchOneBook(bookId) {
+      let oneBook = await axios.get(`${API_ENDPOINT}${bookId}`);
+      let { data } = oneBook;
+      this.newBook = data;
+    },
+
+    async fetchGenres() {
+      let allGenre = await axios.get(API_ENDPOINT_GENRE);
+      let { data } = allGenre;
+      this.genres = data;
+    },
+
+    async updateBook() {
+      let body = {
+        title: this.newBook.title,
+        author: this.newBook.author,
+        resume: this.newBook.resume,
+        coverUri: this.newBook.coverUri,
+        year: this.newBook.year,
+        ebooks: this.newBook.ebooks,
+        genre: {
+          id: this.newBook.genre.id,
+        },
+      };
+      let tryToUpdate = await axios.patch(
+        `${API_ENDPOINT}${this.newBook.id}`,
+        body
+      );
+      console.log(tryToUpdate);
+      this.$router.push({ name: "AdminMyBooks" });
+      return tryToUpdate;
+    },
+
     async createBook() {
       let body = {
         title: this.newBook.title,
@@ -110,13 +147,48 @@ export default {
           id: this.newBook.genre.id,
         },
       };
-      let tryToCreate = await axios.patch(
+      let tryToUpdate = await axios.patch(
         `${API_ENDPOINT}${this.newBook.id}`,
         body
       );
-
-      console.log(tryToCreate);
+      console.log(tryToUpdate);
+      this.$router.push({ name: "AdminMyBooks" });
+      return tryToUpdate;
     },
+
+    async deleteBook() {
+      let body = {
+        title: this.newBook.title,
+        author: this.newBook.author,
+        resume: this.newBook.resume,
+        coverUri: this.newBook.coverUri,
+        year: this.newBook.year,
+        ebooks: this.newBook.ebooks,
+        genre: {
+          id: this.newBook.genre.id,
+        },
+      };
+      let tryToUpdate = await axios.delete(
+        `${API_ENDPOINT}${this.newBook.id}`,
+        body
+      );
+      console.log(tryToUpdate);
+      this.$router.push({ name: "AdminMyBooks" });
+      return tryToUpdate;
+    },
+  },
+
+  async created() {
+    const { bookId = false } = this.$route.params;
+    this.fetchGenres();
+    if (bookId) {
+      this.onEditMode = true;
+      await this.fetchOneBook(bookId);
+      console.log("EN EDITION");
+    } else {
+      this.onEditMode = false;
+      console.log("EN CREATION");
+    }
   },
 };
 </script>

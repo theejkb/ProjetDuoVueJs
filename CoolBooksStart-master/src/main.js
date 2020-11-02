@@ -34,6 +34,10 @@ const routes = [
     path: '/admin/create', name:'AdminCreateBook',
     component: () => import('./components/AdminCreateBook.vue')
   },
+   {
+    path: '/admin/update/:bookId', name:'AdminUpdateBook',
+    component: () => import('./components/AdminCreateBook.vue')
+  },
   {
     path: '/admin/books', name:'AdminMyBooks',
     component: () => import('./components/AdminMyBooks.vue')

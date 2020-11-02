@@ -19,8 +19,10 @@
           <td>{{ book.author }}</td>
           <td>{{ book.year }}</td>
           <td>
-            <button class="btn btn-info" @click="handleBtnEdit">Edit</button>
-            <button class="btn btn-danger" @click="handleBtnDelete">
+            <button class="btn btn-info" @click="handleBtnEdit(book.id)">
+              Edit
+            </button>
+            <button class="btn btn-danger" @click="deleteBook(book.id)">
               Delete
             </button>
           </td>
@@ -48,6 +50,18 @@ export default {
       let allBooks = await axios.get(API_ENDPOINT);
       let { data } = allBooks;
       this.allBooks = data;
+    },
+
+    handleBtnEdit(bookId) {
+      return this.$router.push({ name: "AdminUpdateBook", params: { bookId } });
+    },
+
+    async deleteBook(bookId) {
+      let tryToDelete = await axios.delete(API_ENDPOINT + bookId);
+
+      console.log(tryToDelete);
+      this.$router.refresh;
+      return tryToDelete;
     },
   },
   async created() {

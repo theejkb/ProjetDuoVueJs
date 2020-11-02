@@ -1,48 +1,6 @@
 {
   "books": [
     {
-      "id": 1,
-      "title": "1984",
-      "author": "George Orwell",
-      "resume": "De tous les carrefours importants, le visage à la moustache noire vous fixait du regard. Il y en a un sur le mur d'en face. Big brother vous regarde.",
-      "coverUri": "https://media.senscritique.com/media/000004731893/100/1984.jpg",
-      "year": 1949,
-      "ebooks": true,
-      "genre": {
-        "id": 1,
-        "label": "Science Fiction",
-        "icon": "jedi"
-      }
-    },
-    {
-      "id": 2,
-      "title": "DUNE",
-      "author": "Frank Herbert",
-      "resume": "Il n'y a pas de planète plus inhospitalière que Dune. Une seule richesse : l'épice de longue vie que tout l'univers achète à n'importe quel prix.",
-      "coverUri": "https://media.senscritique.com/media/000006531862/160/Dune_Le_Cycle_de_Dune_tome_1.jpg",
-      "year": 1965,
-      "ebooks": true,
-      "genre": {
-        "id": 1,
-        "label": "Science Fiction",
-        "icon": "jedi"
-      }
-    },
-    {
-      "id": 3,
-      "title": "Hypérion",
-      "author": "Dan Simmons",
-      "resume": "Hypérion, le port spatial, offre un spectacle de fin du monde. Des millions d'habitants de la planète sont sûrs que le gritche va venir les prendre.",
-      "coverUri": "https://media.senscritique.com/media/000007607303/160/Hyperion.jpg",
-      "year": 1989,
-      "ebooks": false,
-      "genre": {
-        "id": 1,
-        "label": "Science Fiction",
-        "icon": "jedi"
-      }
-    },
-    {
       "id": 4,
       "title": "Spin Tome 1",
       "author": "Robert Charles Wilson",
@@ -68,20 +26,6 @@
         "id": 1,
         "label": "Science Fiction",
         "icon": "jedi"
-      }
-    },
-    {
-      "id": 6,
-      "title": "Les enfants d'Alexandrie",
-      "author": "Françoise Chandernagor",
-      "resume": "Marc Antoine et Cléopâtre. L'Imperator et la Reine des Rois. Un couple mythique, parents des jumeaux Alexandre et Cléopâtre, surnommés Hélios et Séléné (en grec Soleil et Lune). Deux jumeaux magnifiques, cadets de Césarion (fils de César), ainés de Ptolémée. Petits princes élevés dans la pourpre et l'encens du Quartier-Royal, « cité interdite » d'Alexandrie. Rois à deux ans, à six, à douze. Princes éphémères de royaumes imaginaires qu'ils jouent aux dés et aux osselets sur les terrasses du palais",
-      "coverUri": "https://media.senscritique.com/media/000013327584/160/Les_Enfants_d_Alexandrie.jpg",
-      "year": 2011,
-      "ebooks": true,
-      "genre": {
-        "id": 2,
-        "label": "Historique",
-        "icon": "landmark"
       }
     },
     {
@@ -177,9 +121,7 @@
       "year": 2010,
       "ebooks": true,
       "genre": {
-        "id": 3,
-        "label": "Biographies",
-        "icon": "pen-alt"
+        "id": 3
       }
     },
     {
@@ -246,34 +188,6 @@
       "coverUri": "https://media.senscritique.com/media/000017840343/160/Gagner_la_guerre.jpg",
       "year": 2009,
       "ebooks": false,
-      "genre": {
-        "id": 4,
-        "label": "Fantasy",
-        "icon": "dragon"
-      }
-    },
-    {
-      "id": 19,
-      "title": "Les Neuf Princes d'Ambre",
-      "author": "Roger Zelazny",
-      "resume": "Corwin, amnésique, apprend qu'il est l'un des 9 frères qui se disputent le pouvoir au royaume d'Ambre",
-      "coverUri": "https://media.senscritique.com/media/000000095572/160/Les_Neuf_Princes_d_Ambre_Le_Cycle_des_Princes_d_Ambre_tome_1.jpg",
-      "year": 1970,
-      "ebooks": true,
-      "genre": {
-        "id": 4,
-        "label": "Fantasy",
-        "icon": "dragon"
-      }
-    },
-    {
-      "id": 20,
-      "title": "Les Annales du Disque-Monde",
-      "author": "Terry Pratchett",
-      "resume": "Octogénaire, borgne, chauve et édenté, Cohen le Barbare, le plus grand héros de tous les temps réussira-t-il à tirer Deuxfleurs et Rincevent des griffes de leurs poursuivants ? Question capitale, car le tissu même du temps et de l'espace est sur le point de passer dans l'essoreuse",
-      "coverUri": "https://media.senscritique.com/media/000000053140/160/Le_Huitieme_Sortilege.jpg",
-      "year": 1983,
-      "ebooks": true,
       "genre": {
         "id": 4,
         "label": "Fantasy",
