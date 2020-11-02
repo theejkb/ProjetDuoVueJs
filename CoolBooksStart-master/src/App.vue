@@ -1,60 +1,63 @@
 <template>
   <div id="app">
-
     <div class="page-wrapper">
       <!-- HEADER DESKTOP-->
       <header class="header-desktop3 d-none d-lg-block">
         <div class="section__content section__content--p35">
           <div class="header3-wrap">
             <div class="header__logo">
-              <router-link class="nav-link" to="/home" >
-                <img src="@/assets/images/icon/logo-white.png" alt="CoolAdmin" />
-              </router-link>
+              <a href="#">
+                <img
+                  src="@/assets/images/icon/logo-white.png"
+                  alt="CoolAdmin"
+                />
+              </a>
             </div>
             <div class="header__navbar">
               <ul class="list-unstyled">
-
                 <li>
-                  <router-link class="nav-link" to="/home" >
+                  <a href="#">
                     <i class="fas fa-book"></i>
-                    <span class="bot-line"></span>Livres</router-link>
+                    <span class="bot-line"></span>Livres</a
+                  >
                 </li>
                 <li>
-                  <router-link class="nav-link" to="/genre">
+                  <a href="#">
                     <i class="fas fa-copy"></i>
-                    <span class="bot-line"></span>Genre</router-link>
+                    <span class="bot-line"></span>Genre</a
+                  >
                 </li>
                 <li>
-
-                  <router-link class="nav-link" to="/admin">
+                  <a href="#">
                     <i class="fas fa-cogs"></i>
-                    <span class="bot-line"></span>Admin</router-link>
+                    <span class="bot-line"></span>Admin</a
+                  >
                 </li>
               </ul>
             </div>
-
-
           </div>
         </div>
       </header>
-<home-page></home-page>
+      <!-- END HEADER DESKTOP-->
+
+      <!-- PAGE CONTENT-->
+      <div class="page-content--bgf7 container-fluid p-5">
+        <router-view></router-view>
+
+        <!-- Content -->
+        <section class="container"></section>
+        <!-- END STATISTIC CHART-->
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-
-import HomePage from './components/HomePage.vue'
 export default {
-  name: 'App',
-  components: {
-    HomePage,
-
-
-  }
-}
+  name: "App",
+  components: {},
+};
 </script>
 
 <style>
-
 </style>
