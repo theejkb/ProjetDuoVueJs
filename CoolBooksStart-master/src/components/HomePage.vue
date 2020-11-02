@@ -1,21 +1,7 @@
 <template>
-    <div class="page-content--bgf7">
-
-      <section class="welcome p-t-10">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h1 class="title-4">Mes Livres
-              </h1>
-              <hr class="line-seprate">
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="container">
-      </section>
-    </div>
-
+  <div>
+    <h3> home livre</h3>
+  </div>
 </template>
 
 <script>
