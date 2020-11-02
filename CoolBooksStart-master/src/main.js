@@ -12,13 +12,31 @@ import '@/assets/vendor/font-awesome-5/css/fontawesome-all.min.css';
 import '@/assets/vendor/mdi-font/css/material-design-iconic-font.min.css';
 
 import '@/assets/css/theme.css';
-
+import VueRouter from 'vue-router';
 
 import App from './App.vue'
+Vue.use(VueRouter)
 
-
+const routes = [
+  {
+    path: '/home', name:'HomePage',
+    component: () => import('./components/HomePage.vue')
+  },
+  {
+    path: '/admin', name:'AdminPage',
+    component: () => import('./components/AdminPage.vue')
+  },
+  {
+    path: '/genre', name:'GenrePage',
+    component: () => import('./components/GenrePage.vue')
+  },
+];
+const router = new VueRouter({
+  routes
+})
 Vue.config.productionTip = false
 
 new Vue({
   render: h => h(App),
+  router
 }).$mount('#app')
