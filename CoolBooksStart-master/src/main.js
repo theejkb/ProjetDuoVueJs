@@ -22,6 +22,11 @@ const routes = [
     path: '/home', name:'HomePage',
     component: () => import('./components/HomePage.vue')
   },
+
+  {
+    path: '/home/book/:bookId', name:'OneBook',
+    component: () => import('./components/BookDetails.vue')
+  },
   {
     path: '/admin', name:'AdminPage',
     component: () => import('./components/AdminPage.vue')
