@@ -30,6 +30,14 @@ const routes = [
     path: '/genre', name:'GenrePage',
     component: () => import('./components/GenrePage.vue')
   },
+  {
+    path: '/admin/create', name:'AdminCreateBook',
+    component: () => import('./components/AdminCreateBook.vue')
+  },
+  {
+    path: '/admin/books', name:'AdminMyBooks',
+    component: () => import('./components/AdminMyBooks.vue')
+  },
 ];
 const router = new VueRouter({
   routes
