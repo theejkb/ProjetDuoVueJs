@@ -30,7 +30,6 @@
         </div>
       </header>
       <router-view></router-view>
-      <router-view></router-view>
       <div class="page-content--bgf7">
         <section class="welcome p-t-10">
           <div class="container">
