@@ -1,0 +1,306 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "1984",
+      "author": "George Orwell",
+      "resume": "De tous les carrefours importants, le visage à la moustache noire vous fixait du regard. Il y en a un sur le mur d'en face. Big brother vous regarde.",
+      "coverUri": "https://media.senscritique.com/media/000004731893/100/1984.jpg",
+      "year": 1949,
+      "ebooks": true,
+      "genre": {
+        "id": 1,
+        "label": "Science Fiction",
+        "icon": "jedi"
+      }
+    },
+    {
+      "id": 2,
+      "title": "DUNE",
+      "author": "Frank Herbert",
+      "resume": "Il n'y a pas de planète plus inhospitalière que Dune. Une seule richesse : l'épice de longue vie que tout l'univers achète à n'importe quel prix.",
+      "coverUri": "https://media.senscritique.com/media/000006531862/160/Dune_Le_Cycle_de_Dune_tome_1.jpg",
+      "year": 1965,
+      "ebooks": true,
+      "genre": {
+        "id": 1,
+        "label": "Science Fiction",
+        "icon": "jedi"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Hypérion",
+      "author": "Dan Simmons",
+      "resume": "Hypérion, le port spatial, offre un spectacle de fin du monde. Des millions d'habitants de la planète sont sûrs que le gritche va venir les prendre.",
+      "coverUri": "https://media.senscritique.com/media/000007607303/160/Hyperion.jpg",
+      "year": 1989,
+      "ebooks": false,
+      "genre": {
+        "id": 1,
+        "label": "Science Fiction",
+        "icon": "jedi"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Spin Tome 1",
+      "author": "Robert Charles Wilson",
+      "resume": "La Terre a été coupée du reste de l’univers par une mystérieuse barrière opaque à l’extérieur de laquelle le temps s’écoule des millions de fois plus vite. Il reste donc peu de temps avant que le Soleil ne transforme la planète en une boule de feu, exterminant ainsi l'humanité.",
+      "coverUri": "https://media.senscritique.com/media/000000103157/100/Spin_tome_1.gif",
+      "year": 2005,
+      "ebooks": false,
+      "genre": {
+        "id": 1,
+        "label": "Science Fiction",
+        "icon": "jedi"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Niourk",
+      "author": "Stefan Wul",
+      "resume": "La terre n'est plus qu'un vaste désert. Des monstres engendrés par des technologies radioactives et disparues hantent ce qu'il reste des océans - quelques lacs d'eau saumâtre, rien de plus. Dans ce monde âpre, un enfant noir, rejeté par tous les membres de sa tribu, se met en route vers Niourk, la ville mythique, peuplée de fantômes. Au bout de cette quête se trouve peut-être de quoi redonner vie à notre Terre assassinée.Un classique de la science-fiction française.",
+      "coverUri": "https://media.senscritique.com/media/000004756591/100/Niourk.jpg",
+      "year": 1957,
+      "ebooks": false,
+      "genre": {
+        "id": 1,
+        "label": "Science Fiction",
+        "icon": "jedi"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Les enfants d'Alexandrie",
+      "author": "Françoise Chandernagor",
+      "resume": "Marc Antoine et Cléopâtre. L'Imperator et la Reine des Rois. Un couple mythique, parents des jumeaux Alexandre et Cléopâtre, surnommés Hélios et Séléné (en grec Soleil et Lune). Deux jumeaux magnifiques, cadets de Césarion (fils de César), ainés de Ptolémée. Petits princes élevés dans la pourpre et l'encens du Quartier-Royal, « cité interdite » d'Alexandrie. Rois à deux ans, à six, à douze. Princes éphémères de royaumes imaginaires qu'ils jouent aux dés et aux osselets sur les terrasses du palais",
+      "coverUri": "https://media.senscritique.com/media/000013327584/160/Les_Enfants_d_Alexandrie.jpg",
+      "year": 2011,
+      "ebooks": true,
+      "genre": {
+        "id": 2,
+        "label": "Historique",
+        "icon": "landmark"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Salammbô",
+      "author": "Gustave Flaubert",
+      "resume": "Guerre des Mercenaires, IIIe siècle av. J.-C. Carthage s'oppose aux Mercenaires barbares qu'elle avait employés dueant la première Guerre punique...",
+      "coverUri": "https://media.senscritique.com/media/000012034694/160/Salammbo.jpg",
+      "year": 1862,
+      "ebooks": false,
+      "genre": {
+        "id": 2,
+        "label": "Historique",
+        "icon": "landmark"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Mémoires d'Hadrien",
+      "author": "Marguerite Yourcenar",
+      "resume": "La longue lettre d'un empereur vieillissant à son petit-fils adoptif de 17 ans et éventuel successeur, Marc Aurèle...",
+      "coverUri": "https://media.senscritique.com/media/000013481668/160/Memoires_d_Hadrien.jpg",
+      "year": 1951,
+      "ebooks": false,
+      "genre": {
+        "id": 2,
+        "label": "Historique",
+        "icon": "landmark"
+      }
+    },
+    {
+      "id": 21,
+      "title": "Une histoire populaire des Etats Unis",
+      "author": "Howard Zinn",
+      "resume": "Cette histoire des Etats-Unis présente le point de vue de ceux dont les manuels d'histoire parlent habituellement peu",
+      "coverUri": "https://media.senscritique.com/media/000000116967/160/Une_Histoire_populaire_des_Etats_Unis.gif",
+      "year": 2003,
+      "ebooks": false,
+      "genre": {
+        "id": 2,
+        "label": "Historique",
+        "icon": "landmark"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Taras Boulba",
+      "author": "Nicolas Gogol",
+      "resume": "Un épisode imaginaire de la lutte des cosaques contre les Polonais dans l'Ukraine du XVIIe siècle. Le vieux Taras Boulba, cosaque des temps héroïques, après avoir initié à la guerre ses deux fils, perd l'aîné sous les coups de l'ennemi et tue de ses propres mains le cadet qui, amoureux d'une Polonaise catholique, a trahi sa famille et la foi orthodoxe.",
+      "coverUri": "https://media.senscritique.com/media/000016277698/160/Taras_Boulba.jpg",
+      "year": 1843,
+      "ebooks": false,
+      "genre": {
+        "id": 2,
+        "label": "Historique",
+        "icon": "landmark"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Si c'est un homme",
+      "author": "Primo Levi",
+      "resume": "Primo Levi explique la lutte et l'organisation pour la survie des prisonniers. Il montre les horreurs de la déshumanisation des camps.",
+      "coverUri": "https://media.senscritique.com/media/000000121958/160/Si_c_est_un_homme.jpg",
+      "year": 1947,
+      "ebooks": false,
+      "genre": {
+        "id": 3,
+        "label": "Biographies",
+        "icon": "pen-alt"
+      }
+    },
+    {
+      "id": 12,
+      "title": "La Promesse de l'aube",
+      "author": "Romain Gary",
+      "resume": "Tu seras un héros, tu seras général, Gabriele D'Annunzio, Ambassadeur de France – tous ces voyous ne savent pas qui tu es !",
+      "coverUri": "https://media.senscritique.com/media/000017498571/160/La_Promesse_de_l_aube.jpg",
+      "year": 1960,
+      "ebooks": true,
+      "genre": {
+        "id": 3,
+        "label": "Biographies",
+        "icon": "pen-alt"
+      }
+    },
+    {
+      "id": 13,
+      "title": "Just Kids",
+      "author": "Romain Gary",
+      "resume": "La grande prêtresse du punk rock revient sur ses années de bohème dans le New York arty des années 70 et sur son amitié avec Robert Mapplethorpe.",
+      "coverUri": "https://media.senscritique.com/media/000000003968/160/Just_Kids.jpg",
+      "year": 2010,
+      "ebooks": true,
+      "genre": {
+        "id": 3,
+        "label": "Biographies",
+        "icon": "pen-alt"
+      }
+    },
+    {
+      "id": 14,
+      "title": "La Mort est mon métier",
+      "author": "Robert Merle",
+      "resume": "La mort est mon métier est une biographie romancée de Rudolf Höß (renommé Rudolf Lang dans l'ouvrage), commandant du camp de concentration et d'extermination d'Auschwitz pendant la Seconde Guerre mondiale.",
+      "coverUri": "https://media.senscritique.com/media/000017391899/160/La_Mort_est_mon_metier.jpg",
+      "year": 1953,
+      "ebooks": true,
+      "genre": {
+        "id": 3,
+        "label": "Biographies",
+        "icon": "pen-alt"
+      }
+    },
+    {
+      "id": 15,
+      "title": "Le Seigneur des anneaux",
+      "author": "J.R.R Tolkien",
+      "resume": "la quête du hobbit Frodon Sacquet, qui doit détruire l'Anneau unique afin que celui-ci ne tombe pas entre les mains de Sauron, le Seigneur des ténèbres.",
+      "coverUri": "https://media.senscritique.com/media/000007124067/160/Le_Seigneur_des_anneaux_Integrale.jpg",
+      "year": 1955,
+      "ebooks": true,
+      "genre": {
+        "id": 4,
+        "label": "Fantasy",
+        "icon": "dragon"
+      }
+    },
+    {
+      "id": 16,
+      "title": "l'assasin Royal",
+      "author": "Robin Hobb",
+      "resume": "Lorsque le jeune Fitz est conduit à la cour des Six-Duchés, il ne sait pas encore que sa vie – et celle du royaume tout entier – va s’en trouver bouleversée",
+      "coverUri": "https://media.senscritique.com/media/000017570972/160/L_Apprenti_assassin_L_Assassin_royal_tome_1.jpg",
+      "year": 1995,
+      "ebooks": true,
+      "genre": {
+        "id": 4,
+        "label": "Fantasy",
+        "icon": "dragon"
+      }
+    },
+    {
+      "id": 17,
+      "title": "chocolat",
+      "author": "George R.R.Martin",
+      "resume": "Le royaume des sept couronnes est sur le point de connaître son plus terrible hiver : au nord du mur, une armée des ténèbres se lève.",
+      "coverUri": "https://media.senscritique.com/media/000006456145/160/Le_Trone_de_fer_L_Integrale_tome_1.jpg",
+      "year": 1996,
+      "ebooks": false,
+      "genre": {
+        "id": 4,
+        "label": "Fantasy",
+        "icon": "dragon"
+      }
+    },
+    {
+      "id": 18,
+      "title": "Gagner la guerre",
+      "author": "Jean Philippe Jaworski",
+      "resume": "Don Benvenuto est au service du Podestat de la République mais est toujours très habile pour se fourrer dans les pires situations qui soient.",
+      "coverUri": "https://media.senscritique.com/media/000017840343/160/Gagner_la_guerre.jpg",
+      "year": 2009,
+      "ebooks": false,
+      "genre": {
+        "id": 4,
+        "label": "Fantasy",
+        "icon": "dragon"
+      }
+    },
+    {
+      "id": 19,
+      "title": "Les Neuf Princes d'Ambre",
+      "author": "Roger Zelazny",
+      "resume": "Corwin, amnésique, apprend qu'il est l'un des 9 frères qui se disputent le pouvoir au royaume d'Ambre",
+      "coverUri": "https://media.senscritique.com/media/000000095572/160/Les_Neuf_Princes_d_Ambre_Le_Cycle_des_Princes_d_Ambre_tome_1.jpg",
+      "year": 1970,
+      "ebooks": true,
+      "genre": {
+        "id": 4,
+        "label": "Fantasy",
+        "icon": "dragon"
+      }
+    },
+    {
+      "id": 20,
+      "title": "Les Annales du Disque-Monde",
+      "author": "Terry Pratchett",
+      "resume": "Octogénaire, borgne, chauve et édenté, Cohen le Barbare, le plus grand héros de tous les temps réussira-t-il à tirer Deuxfleurs et Rincevent des griffes de leurs poursuivants ? Question capitale, car le tissu même du temps et de l'espace est sur le point de passer dans l'essoreuse",
+      "coverUri": "https://media.senscritique.com/media/000000053140/160/Le_Huitieme_Sortilege.jpg",
+      "year": 1983,
+      "ebooks": true,
+      "genre": {
+        "id": 4,
+        "label": "Fantasy",
+        "icon": "dragon"
+      }
+    }
+  ],
+  "genres": [
+    {
+      "id": 1,
+      "label": "Science Fiction",
+      "icon": "jedi"
+    },
+    {
+      "id": 2,
+      "label": "Historique",
+      "icon": "landmark"
+    },
+    {
+      "id": 3,
+      "label": "Biographies",
+      "icon": "pen-alt"
+    },
+    {
+      "id": 4,
+      "label": "Fantasy",
+      "icon": "dragon"
+    }
+  ]
+}
