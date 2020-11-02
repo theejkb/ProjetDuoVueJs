@@ -15,29 +15,21 @@
             </div>
             <div class="header__navbar">
               <ul class="list-unstyled">
-                <li>
-                  <a href="#">
-                    <i class="fas fa-book"></i>
-                    <span class="bot-line"></span>Livres</a
-                  >
+                <li class="nav-item">
+                  <router-link class="nav-link" to="/home">Home</router-link>
                 </li>
-                <li>
-                  <a href="#">
-                    <i class="fas fa-copy"></i>
-                    <span class="bot-line"></span>Genre</a
-                  >
+                <li class="nav-item">
+                  <router-link class="nav-link" to="/genre">Genre</router-link>
                 </li>
-                <li>
-                  <a href="#">
-                    <i class="fas fa-cogs"></i>
-                    <span class="bot-line"></span>Admin</a
-                  >
+                <li class="nav-item">
+                  <router-link class="nav-link" to="/admin">Admin</router-link>
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </header>
+      <router-view></router-view>
       <router-view></router-view>
       <div class="page-content--bgf7">
         <section class="welcome p-t-10">
